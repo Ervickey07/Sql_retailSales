@@ -1,5 +1,7 @@
-# Sql_retailSales
+# 🛒 Retail Sales Analysis using SQL
 
-**-- SQL retail Sales Analysis---**
-CREATE DATABASE sql_project_p1
-use sql_project_p1
+##📌 Project Overview
+This project performs an in-depth analysis of retail sales data using SQL. The goal is to extract actionable insights to support data-driven business decisions such as identifying top-performing products, peak sales periods, and customer purchasing trends etc.
+
+
+
