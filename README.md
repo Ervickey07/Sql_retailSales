@@ -35,6 +35,27 @@ WITH (
 );
 
 
+# 🔍 Data Validation Queries for `retail_sales` Table
+
+This document includes basic SQL checks to validate data quality in the `retail_sales` table after importing a CSV file.
+
+## 📊 1. Count Total Rows
+
+```sql
+-- Counting all rows in the retail_sales table
+SELECT COUNT(*) FROM retail_sales;
+
+
+-- Checking if any transaction IDs are missing
+SELECT * FROM retail_sales
+WHERE transactions_id IS NULL;
+
+
+-- Checking if any sale dates are missing
+SELECT * FROM retail_sales
+WHERE sale_date IS NULL;
+
+
 
 
 
