@@ -72,7 +72,7 @@ This section covers initial data exploration and dives into potential business q
 SELECT * FROM retail_sales;
 
 -- Count total number of sales
-SELECT COUNT(*) AS Howmany_sales FROM retail_sales;
+SELECT COUNT(*) AS Howmany_sales FROM retail_sales;'''
 
 
 
@@ -82,7 +82,7 @@ SELECT COUNT(*) AS Howmany_sales FROM retail_sales;
 
 ```sql
 SELECT * FROM retail_sales
-WHERE sale_date = '2022-11-05';
+WHERE sale_date = '2022-11-05';'''
 
 
 **🔍 Explanation:**
@@ -91,7 +91,12 @@ This query fetches all columns from the retail_sales table for records where the
 📌 Use Case:
 Helps identify daily performance.
 
-Useful for time-based trend analysis, holiday campaigns, or special sale days.
+Useful for time-based trend analysis, holiday campaigns, or special sale days
+
+
+
+
+
 
 
 
